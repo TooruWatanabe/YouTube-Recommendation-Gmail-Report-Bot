@@ -22,3 +22,19 @@ LLM-based summaries and profile-aware relevance scores
 Threshold filter (e.g., include only score ≥ 70)
 Automated email report via Gmail API
 Daily execution via cron to continuously collect fresh content
+
+# Example Run
+The script runs automatically every day at 09:00.
+Example email body (excerpt):
+
+📩 Today’s Recommended YouTube Videos (Score ≥ 70)
+
+[EV cars] TOYOTA Announces New $13,000 EV (2025-09-05)
+https://www.youtube.com/watch?v=xxxx
+Summary: Explains market impact of Toyota’s low-cost EV.
+Score: 85
+
+[Autonomous driving] Qualcomm’s New Self-Driving Stack for BMWs (2025-09-04)
+https://www.youtube.com/watch?v=yyyy
+Summary: Overview of Qualcomm’s latest AD stack and implications for OEMs.
+Score: 85
